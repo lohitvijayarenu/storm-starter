@@ -45,3 +45,4 @@ mvn -f m2-pom.xml package
 This will package your code and all the non-Storm dependencies into a single "uberjar" at the path `target/storm-starter-{version}-jar-with-dependencies.jar`.
 
 ## New example
+To understand and get going, cloned WordCount to TriggerWords which only emits counts for interested words. In this dirty hack word of interest is "cow" :)
